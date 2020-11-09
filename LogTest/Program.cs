@@ -19,8 +19,6 @@ namespace LogTest
             string accessToken = GetAccessToken();
             //获取审批痕迹
             string flowRecord = GetFlowRecord(accessToken, "5fa8eebc4435e80001b80e41", "576db4870d6443ddb39d9026a5a426ac");
-            //获取审批状态
-            string flowStatus = GetFlowStatus(accessToken, );
             //获取外部接口日志
             //string externalLog =  GetExternalLog(accessToken);
             //JObject json = JObject.Parse(externalLog);
